@@ -13,7 +13,7 @@ GEMINI_API_KEY = "your api key"
 GEMINI_MODEL = "gemini-3.7-flash"
 
 INPUT_XLSX_PATH = "datasets/input_dataset.xlsx"  
-OUTPUT_XLSX_PATH = "datasets/output_dataset.xlsx"
+OUTPUT_XLSX_PATH = "datasets/final_dataset.xlsx"
  
 TITLE_COLUMN = "paper_title"
 ABSTRACT_COLUMN = "abstract"

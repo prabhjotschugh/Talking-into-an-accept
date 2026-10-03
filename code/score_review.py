@@ -25,7 +25,7 @@ from huggingface_hub import login
 HF_TOKEN = "<YOUR_HUGGINGFACE_TOKEN>"
 
 INPUT_XLSX_PATH = "datasets/final_dataset.xlsx"
-OUTPUT_XLSX_PATH = "results/final_results.xlsx"
+OUTPUT_XLSX_PATH = "result/final_results.xlsx"
 
 N = 1
 N_WORKERS_STANDARD = 8

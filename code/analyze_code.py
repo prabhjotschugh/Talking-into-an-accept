@@ -29,9 +29,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 
-INPUT_XLSX_PATH = "results/final_results.xlsx"
-RESULTS_LOG_PATH = "completed-output_scoring_log.jsonl"
-OUTPUT_DIR = "analysis_output"
+INPUT_XLSX_PATH = "result/final_results.xlsx"
+RESULTS_LOG_PATH = "result/final_results_scoring_log.jsonl"
+
+OUTPUT_DIR = "analysis_and_figures"
 FDR_ALPHA = 0.05
 
 TEXT_COLUMNS = {
@@ -754,7 +755,7 @@ def main():
         print(f"  FAILED to write final outputs: {e}")
 
     print("\n" + "=" * 60)
-    print("DONE. Check analysis_output/ for everything.")
+    print("DONE. Check analysis_and_figures/ for everything.")
     print("=" * 60)
 
 
